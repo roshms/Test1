@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "RSADFTutorialDataFactory"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureFileStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureHDInsightLinkedService_clusterPassword": {
+			"value": ""
+		},
+		"AzureHDInsightLinkedService_clusterSshPassword": {
+			"value": ""
+		},
+		"AzureHDInsightLinkedService_servicePrincipalKey": {
+			"value": ""
+		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureStorageLinkedService_connectionString": {
+			"value": ""
+		},
+		"RestService1_password": {
+			"value": ""
+		},
+		"AzureHDInsightLinkedService_properties_typeProperties_hostSubscriptionId": {
+			"value": "1ac17c4f-320b-41f9-b966-c6e7a33e585a"
+		},
+		"AzureHDInsightLinkedService_properties_typeProperties_clusterResourceGroup": {
+			"value": "RSGroup"
+		},
+		"AzureHDInsightLinkedService_properties_typeProperties_servicePrincipalId": {
+			"value": "d378f775-be6c-4b18-be97-70f10bca51aa"
+		},
+		"AzureHDInsightLinkedService_properties_typeProperties_tenant": {
+			"value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+		},
+		"AzureHDInsightLinkedService_properties_typeProperties_clusterUserName": {
+			"value": "azureuser"
+		},
+		"Keyvault_DB_properties_typeProperties_baseUrl": {
+			"value": "https://gssprod-synapse-db-kv-01.vault.azure.net/"
+		},
+		"LS_AKV_properties_typeProperties_baseUrl": {
+			"value": "https://zcc1daiakv01p.vault.azure.net/"
+		},
+		"LabKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://TestKey2rs.vault.azure.net/"
+		},
+		"MDB_properties_typeProperties_url": {
+			"value": "https://labsars.dfs.core.windows.net/"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "test.com"
+		},
+		"RestService1_properties_typeProperties_userName": {
+			"value": "azureuser"
+		}
+	}
+}
