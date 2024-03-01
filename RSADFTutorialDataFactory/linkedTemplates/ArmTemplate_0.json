@@ -381,7 +381,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"folderPath": "output",
+						"fileName": "emp.txt",
+						"folderPath": "input",
 						"container": "adftutorial"
 					},
 					"columnDelimiter": ",",
@@ -408,7 +409,10 @@
 				"type": "DelimitedText",
 				"typeProperties": {
 					"location": {
-						"type": "AzureBlobStorageLocation"
+						"type": "AzureBlobStorageLocation",
+						"fileName": "input.txt",
+						"folderPath": "input",
+						"container": "adftutorial"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
