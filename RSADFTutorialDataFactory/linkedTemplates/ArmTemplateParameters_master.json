@@ -32,6 +32,12 @@
 		"RestService1_password": {
 			"value": ""
 		},
+		"dw_sql_db_ls_connectionString": {
+			"value": ""
+		},
+		"iwa_sql_db_ls_connectionString": {
+			"value": ""
+		},
 		"AzureHDInsightLinkedService_properties_typeProperties_hostSubscriptionId": {
 			"value": "1ac17c4f-320b-41f9-b966-c6e7a33e585a"
 		},

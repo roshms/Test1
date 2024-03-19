@@ -43,6 +43,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'RestService1'"
 		},
+		"dw_sql_db_ls_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'dw_sql_db_ls'"
+		},
+		"iwa_sql_db_ls_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'iwa_sql_db_ls'"
+		},
 		"AzureHDInsightLinkedService_properties_typeProperties_hostSubscriptionId": {
 			"type": "string",
 			"defaultValue": "1ac17c4f-320b-41f9-b966-c6e7a33e585a"
@@ -128,6 +136,12 @@
 					},
 					"RestService1_password": {
 						"value": "[parameters('RestService1_password')]"
+					},
+					"dw_sql_db_ls_connectionString": {
+						"value": "[parameters('dw_sql_db_ls_connectionString')]"
+					},
+					"iwa_sql_db_ls_connectionString": {
+						"value": "[parameters('iwa_sql_db_ls_connectionString')]"
 					},
 					"Keyvault_DB_properties_typeProperties_baseUrl": {
 						"value": "[parameters('Keyvault_DB_properties_typeProperties_baseUrl')]"
